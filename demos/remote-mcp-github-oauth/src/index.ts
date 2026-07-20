@@ -15,10 +15,8 @@ type Props = {
 };
 
 const ALLOWED_USERNAMES = new Set<string>([
-	// Add GitHub usernames of users who should have access to the image generation tool
-	// For example: 'yourusername', 'coworkerusername'
+  "Annchin886",
 ]);
-
 export class MyMCP extends McpAgent<Env, Record<string, never>, Props> {
 	server = new McpServer({
 		name: "Github OAuth Proxy Demo",
